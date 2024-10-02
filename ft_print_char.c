@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_char.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cllovio <cllovio@student.42lyon.fr>        +#+  +:+       +#+        */
+/*   By: cllovio <cllovio@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/24 14:04:58 by cllovio           #+#    #+#             */
-/*   Updated: 2022/11/29 10:18:19 by cllovio          ###   ########.fr       */
+/*   Updated: 2024/10/02 09:30:06 by cllovio          ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,10 +26,8 @@ void	ft_putchar(int c, int *count)
 void	ft_putstr(char *s, int *count)
 {
 	int	i;
-	int	temp;
 
 	i = 0;
-	temp = 0;
 	if (!s)
 	{
 		ft_putstr("(null)", count);
